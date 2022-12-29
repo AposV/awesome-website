@@ -1,0 +1,185 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header .logo {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 24px; 
+    font-weight: 900 !important;
+
+    color: #F9FAF8;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.hero .left {
+    width: 400px;
+}
+
+.hero .left h1 {
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero .left p {
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: 100;
+    color: #F9FAF8;
+}
+
+#btn-sign-up {
+    width: 80px;
+    height: 25px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #F9FAF8;
+
+}
+
+.hero .right img {
+    height: 200px;
+    width: 360px;
+    background-color: aliceblue;
+}
+
+.info-block {
+    margin-bottom: 100px;
+}
+
+.info-block .title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    padding: 25px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.img-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.img-tile {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.img-text {
+    padding-top: 5px;
+    width: 150px;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight:lighter;
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+
+}
+
+.quote-section .block {
+    padding: 100px;
+}
+
+#quote { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color:#1F2937;
+}
+
+#quote-name {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+
+.sign-in-banner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+    border-radius: 8px;
+
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-in-banner .text {
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text p {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.call-action-title {
+    font-weight: bold;
+}
+
+.call-action-text {
+    font-weight: light;
+    font-size: 10px;
+}
+
+#btn-sign-up-banner {
+    width: 80px;
+    height: 25px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #F9FAF8;
+
+}
